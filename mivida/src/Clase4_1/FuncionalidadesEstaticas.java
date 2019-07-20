@@ -22,5 +22,6 @@ public class FuncionalidadesEstaticas {
         System.out.println(Funcionalidades.rectPerimetro(31, 3));
         System.out.println(Funcionalidades.pago(20));
         System.out.println(Funcionalidades.saludar("Alex"));
+        System.out.println(Funcionalidades.suma(2));
     }
 }

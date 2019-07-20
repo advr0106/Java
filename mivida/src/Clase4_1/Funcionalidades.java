@@ -80,4 +80,11 @@ public class Funcionalidades {
 
         return saludo;
     }
+   
+    public static int suma(int resul)
+    {
+       resul =resul+2+2; 
+    return resul;
+    
+    }
 }
