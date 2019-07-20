@@ -20,7 +20,7 @@ public class Mivida {
        Mivida m = new Mivida();
       //**********************************************INICIO DE CREACION DE LISTA PERROS***********************************************************
       
-       Perro perro = new Perro();//Se crea la instancia
+       Perro perro = new Perro();//Se crea la instanciajol
        c.getPerros().add(new Perro("Manuel","Negro",10.2,"Golden","Crespo",false,'H'));      
        c.getPerros().add(new Perro("Igor","Negro",10.2,"Golden","Lacio",false,'H'));   
        c.getPerros().add(new Perro("Luli","Negro",10.2,"Chow chow","Crespo",false,'H'));
