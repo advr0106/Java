@@ -19,12 +19,17 @@ public class Funcionalidades {
     public Funcionalidades() {
     }
     public static int entero(int x){
-        if(x>0) return x;
+        if(x>0){
+            return x;
+        } 
+            
         return -x;
     }
 
     public static double doble(double x){
-        if(x<0) return -x;
+        if(x<0){
+            return -x;
+        }
         return x;
     }
     public static long potencia(int base, int exponente){

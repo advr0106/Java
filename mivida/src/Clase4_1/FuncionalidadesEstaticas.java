@@ -12,8 +12,8 @@ package Clase4_1;
 public class FuncionalidadesEstaticas {
 
     public static void main(String[] args){
-        System.out.println();Funcionalidades.entero(-41);
-        System.out.println();Funcionalidades.doble(5.2);
+        System.out.println(Funcionalidades.entero(-41));;
+        System.out.println(Funcionalidades.doble(-5.2));;
         System.out.println(Funcionalidades.esPrimo(5));
         System.out.println(Funcionalidades.fecha(2002, 11, 20));
         System.out.println(Funcionalidades.potencia(12, 2));
