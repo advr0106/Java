@@ -15,13 +15,16 @@ public class Main {
         nuevoCarro(new Carro("Negro","Grande","Nissan",2001,"Deportivo"));
         nuevoAvion(new Avion("Blanco", "Pequeño", "Boing", 2010, "Extravagante"));
         nuevoBote(new Bote("Rojo", "Pequeno", "Tu casa", 31, "Primera"));
+        
+        
     }
     public static void nuevoCarro(Carro carro){
         System.out.println("Año:"+carro.getAno());
         System.out.println("Color: "+carro.getColor());
         System.out.println("Fabricante: "+carro.getFabricante());
         System.out.println("Clase: "+carro.getClase());
-        System.out.println("Tamaño: "+carro.getTamaño());
+        System.out.println("Tamaño: "+carro.getTamaño()+"\n");
+        
         
         System.out.println("Comportamiento:");
         carro.encender();
@@ -36,7 +39,7 @@ public class Main {
         System.out.println("Color: "+avion.getColor());
         System.out.println("Fabricante: "+avion.getFabricante());
         System.out.println("Clase: "+avion.getClase());
-        System.out.println("Tamaño: "+avion.getTamaño());
+        System.out.println("Tamaño: "+avion.getTamaño()+"\n");
         
         System.out.println("Comportamiento:");
         avion.encender();
@@ -51,7 +54,7 @@ public class Main {
         System.out.println("Color: "+bote.getColor());
         System.out.println("Fabricante: "+bote.getFabricante());
         System.out.println("Clase: "+bote.getClase());
-        System.out.println("Tamaño: "+bote.getTamaño());
+        System.out.println("Tamaño: "+bote.getTamaño()+"\n");
         
         System.out.println("Comportamiento:");
         bote.encender();
@@ -62,12 +65,14 @@ public class Main {
         
     }
     /*public static void nuevoVehiculo(Vehiculo vehiculo){
+        System.out.println("Año:"+vehiculo);
+        /*System.out.println("Color: "+vehiculo.getColor());
         System.out.println("Año:"+vehiculo.getAno());
         System.out.println("Color: "+vehiculo.getColor());
         System.out.println("Fabricante: "+vehiculo.getFabricante());
         System.out.println("Clase: "+vehiculo.getClase());
         System.out.println("Tamaño: "+vehiculo.getTamaño());
-        
+       
         System.out.println("Comportamiento:");
         vehiculo.encender();
         vehiculo.acelerar();
