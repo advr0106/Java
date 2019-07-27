@@ -61,7 +61,7 @@ public class Main {
         bote.apagar();
         
     }
-    public static void nuevoVehiculo(Vehiculo vehiculo){
+    /*public static void nuevoVehiculo(Vehiculo vehiculo){
         System.out.println("Año:"+vehiculo.getAno());
         System.out.println("Color: "+vehiculo.getColor());
         System.out.println("Fabricante: "+vehiculo.getFabricante());
@@ -75,5 +75,5 @@ public class Main {
         vehiculo.frenar();
         vehiculo.apagar();
         
-    }
+    }*/
 }
