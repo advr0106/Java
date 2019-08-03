@@ -25,10 +25,10 @@ public class Main {
         Cliente c = new Cliente();
         c.tarjetas = new ArrayList();
 
-        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de Credito", tc, tc, td, tf, tm));
-        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de Debito", td, tc, td, tf, tm));
-        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de fidelizacion", tf, tc, td, tf, tm));
-        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de monedero", tm, tc, td, tf, tm));
+        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de Credito"));
+        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de Debito"));
+        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de fidelizacion"));
+        c.getTarjetas().add(new Cliente(12, "Gonzalo", "Beraz", 12, "Tarjeta de monedero"));
 
         c.tarjetas.forEach(clien -> {
             System.out.println(clien.getClienteId());

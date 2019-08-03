@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase6_1;
+package Clase6_1_2;
 
+import Clase6_1.*;
 import java.util.ArrayList;
 import java.util.List;
 import Clase6_1.TarjetasCredito;
@@ -20,34 +21,20 @@ public class Cliente {
     private String apellido;
     private int fechaNacimiento;
     private String tTarjetas;
-    List<Cliente> tarjetas = new ArrayList();
+    List<Tarjetas> tarjetas = new ArrayList();
 
-    public Cliente(int clienteId, String primerNombre, String apellido, int fechaNacimiento,String tTarjetas, Tarjetas tarjeta, TarjetasCredito tc, TarjetasDebito td, TarjetasFidelizacion tf, TarjetasMonedero tm) {
+    public Cliente(int clienteId, String primerNombre, String apellido, int fechaNacimiento) {
         this.clienteId = clienteId;
         this.primerNombre = primerNombre;
         this.apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
-        this.tTarjetas=tTarjetas;
-        /*if (tarjeta == td) {
-            td.imprimirTipo();
-        } else if (tarjeta == tc) {
-            tc.imprimirTipo();
-        } else if (tarjeta == td) {
-            td.imprimirTipo();
-        } else if (tarjeta == tf) {
-            tf.imprimirTipo();
-        } else if (tarjeta == tm) {
-            tm.imprimirTipo();
-        }*/
+        
+
 
     }
 
     Cliente() {
 
-    }
-
-    Cliente(int i, String gonzalo, String beraz, int i0, String tarjeta_de_Credito) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public int getClienteId() {
