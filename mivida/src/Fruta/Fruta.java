@@ -10,7 +10,7 @@ package Fruta;
  * @author alex
  */
 public abstract class Fruta {
-    private int nivelDeAzucar =0;
+    private final int nivelDeAzucar =0;
     public abstract void presentar();
     public void imprimirAzucar(){
         System.out.println("Soy tan dulce como: "+nivelDeAzucar+"de 10"); 

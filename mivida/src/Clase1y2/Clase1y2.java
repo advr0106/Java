@@ -78,6 +78,7 @@ public class Clase1y2 {
            System.out.println(perro1.getRaza());
            System.out.println(perro1.getTipoDePelo()); 
            System.out.println();
+           
        });
        
        

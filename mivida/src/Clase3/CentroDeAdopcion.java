@@ -7,6 +7,7 @@ package Clase3;//Paquete donde se encuentra la clase
 
 import java.util.List;
 import java.util.Objects;
+import javafx.beans.binding.When;
 
 /**
  *
@@ -101,7 +102,12 @@ public class CentroDeAdopcion {
                     System.out.println("Genero : " + fil.getGenero());
             }
             else{//En caso de nada pasa esto
-                System.out.println("Perro no disponible");
+               for (int i = 0; i >= perros.size(); i=i+1)
+               {
+                if (i==15){
+                  System.out.println("Perro no disponible");  
+                }
+                }
             }
         });
     }   

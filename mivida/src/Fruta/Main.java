@@ -25,14 +25,14 @@ public class Main {
     
     public static void main(String[] args) {
         
-       /* Manzana m = new Manzana();
+        Manzana m = new Manzana();
         Fruta f = m;
         Manzana m1=(Manzana) f;
-        m1.presentar();*/
+        m1.presentar();
        
        
-       Main m=new Main();
-       m.calcular(null);
+       Main ma=new Main();
+       ma.calcular(null);
        
        //Wrapper class 
        Long l; //long
